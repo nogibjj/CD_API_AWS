@@ -2,20 +2,20 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
-post-install:
+# post-install:
 # 	python -m textblob.download_corpora
 
 format:
-#	black *.py mylib/*.py
+	black *.py mylib/*.py
 
 lint:
-#	pylint --disable=R,C *.py mylib/*.py
+	pylint --disable=R,C *.py mylib/*.py
 
 test:
-#	python -m pytest -vv --cov=mylib --cov=main test_*.py
+	python -m pytest -vv --cov=mylib --cov=main test_*.py
 
 build:
-#	docker build -t deploy-fastapi .
+	docker build -t data-eng-api .
 
 # run:
 # 	#run docker
