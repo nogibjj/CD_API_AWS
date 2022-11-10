@@ -1,5 +1,0 @@
-pytest
-pylint
-click
-fastapi
-uvicorn[standard]

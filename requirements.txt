@@ -1,0 +1,9 @@
+black
+pytest
+pylint
+wikipedia
+pytest-cov
+fire
+fastapi
+uvicorn
+textblob
