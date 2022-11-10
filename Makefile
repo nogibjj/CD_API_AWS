@@ -27,4 +27,4 @@ deploy:
 # 	docker tag wiki-fastapi:latest 894437926398.dkr.ecr.us-east-2.amazonaws.com/wiki-fastapi:latest
 # 	docker push 894437926398.dkr.ecr.us-east-2.amazonaws.com/wiki-fastapi:latest
 
-all: install post-install lint test deploy
+all: install lint test deploy
