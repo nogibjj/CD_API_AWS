@@ -4,6 +4,7 @@ import uvicorn
 
 api = FastAPI()
 
+
 @api.get("/")
 async def root():
     """Root page"""
