@@ -1,6 +1,6 @@
 black
 pytest
-pylint
+pylint==2.15
 wikipedia
 pytest-cov
 fire
