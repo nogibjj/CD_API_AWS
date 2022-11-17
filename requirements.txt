@@ -6,4 +6,5 @@ pytest-cov
 fire
 fastapi
 uvicorn
-textblob
+requests
+pydantic
