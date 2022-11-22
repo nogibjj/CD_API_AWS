@@ -49,6 +49,7 @@ def test_replace_num():
         "preprocessed_text": "Hello, my name is Jojo, I'm  <NUMERIC_VALUE>  My phone Number is + <NUMERIC_VALUE> ",
     }
 
+
 if __name__ == "__main__":
     test_request_no_params()
     test_replace_num()
